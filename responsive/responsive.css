@@ -1,0 +1,44 @@
+/* responsive.css */
+
+/*body {
+        background-image: url("homer.jpg");
+        background-repeat: no-repeat;
+}*/
+.homer {
+        background-image: url("homer.jpg");
+        display: inline-block;
+
+}
+
+
+@media screen and (min-width: 1201px) {
+        .homer {
+                width: 312px;
+                height: 312px;
+                background-position: 0px 0px;
+        }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+        .homer {
+                width: 312px;
+                height: 312px;
+                background-position: -313px 0px;
+        }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+        .homer {
+                width: 312px;
+                height: 312px;
+                background-position: 0px -313px;
+        }
+}
+
+@media screen and (max-width: 400px) {
+        .homer {
+                width: 312px;
+                height: 312px;
+                background-position: -313px -313px;
+        }
+}
